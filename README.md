@@ -8,21 +8,12 @@
 
 ```bash
 $ npm install cnpm -g --registry=https://registry.npm.taobao.org
-$ cnpm -v
 ```
 
 安装 [dva-cli](https://github.com/dvajs/dva-cli)，确保版本是 `0.9.1` 或以上。
 
 ```bash
-$ npm install dva-cli -g
-$ dva -v
-dva-cli version 0.9.2
-```
-
-安装 [yarn](https://github.com/yarnpkg/yarn)。
-
-```bash
-$ npm install -g create-react-app yarn
+$ cnpm install dva-cli -g
 ```
 
 ## 新建项目
@@ -41,7 +32,7 @@ $ dva new react-dva-samples
 
 ```bash
 $ cd react-dva-samples
-$ npm install
+$ cnpm install
 ```
 
 ## 启动
@@ -50,7 +41,7 @@ $ npm install
 
 ```bash
 $ cd react-dva-samples
-$ npm start
+$ cnpm start
 ```
 
 几秒钟后，你会看到以下输出：
